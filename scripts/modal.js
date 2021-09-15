@@ -6,28 +6,28 @@ $(document).ready(function() {
       tag: 'HTML / Responsive CSS',
       detail:
         'Full responsive website which can be viewed seemless on any device big or small.',
-      link: '#'
+      link: 'https://bbc-website.netlify.app'
     },
     ordering: {
       title: 'THE NEW YORK TIMES',
       tag: 'HTML / Responsive CSS',
       detail:
         'Full responsive website which can be viewed seemless on any device big or small.',
-      link: '#'
+      link: 'https://nyt-website.netlify.app'
     },
     newrelic: {
-      title: 'TECH CRUNCH',
+      title: 'LEVEL GROUND',
       tag: 'HTML / Responsive CSS',
       detail:
        'Full responsive website which can be viewed seemless on any device big or small.',
-      link: '#'
+      link: 'https://levelground-website.netlify.app'
     },
     roambi: {
       title: 'FACEBOOK',
       tag: 'HTML / CSS',
       detail:
        'The task was to make the site as identical as possible',
-      link: '#'
+      link: 'https://facebook-website.netlify.app'
     },
     walker: {
       title: 'THE HUFFINGTON POST',
@@ -40,7 +40,7 @@ $(document).ready(function() {
       tag: 'HTML / CSS / JavaScript',
       detail:
         'Utilized JavaScript that waits for the user to enter their birthday and follows up with a horoscope based on their input',
-      link: '#'
+      link: 'https://horoscope-website.netlify.app'
     },
     mystand: {
       title: 'JWLIA',
@@ -49,7 +49,7 @@ $(document).ready(function() {
       'Full responsive website which can be viewed seemless on any device big or small.'
     },
     never: {
-      title: 'LEVEL GROUND',
+      title: 'TECH CRUNCH',
       tag: 'HTML / Responsive CSS',
       detail:
       'Full responsive website which can be viewed seemless on any device big or small.'
