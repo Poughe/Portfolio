@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Final Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+    <title></title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- HOSTED -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
       rel="stylesheet"
       type="text/css"
     />
     <link
-      href="fonts/mdi/css/materialdesignicons.min.css"
+      href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
       media="all"
       rel="stylesheet"
     />
+
     <!-- LOCAL -->
     <link rel="stylesheet" href="style/style.css" />
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
     <!-- HOSTED -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+
     <!-- LOCAL -->
     <script src="scripts/pt.min.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/modal.js"></script>
   </head>
-  
-  
   <body>
     <div class="overflow-wrap">
       <!-- HOME -->
@@ -51,7 +59,7 @@
             <div class="detail"></div>
             <a href="#" target="_blank"
               ><div class="button">
-                <i class="mdi mdi-open-in-new"></i>VIEW SITE
+                <i class="mdi mdi-open-in-new"></i>LIVE CODE
               </div></a
             >
           </div>
@@ -63,21 +71,21 @@
         <div id="pt" class="canvas"></div>
         <div class="flex">
           <div class="text">
-            Hello, I'm <span class="highlight">Ernest Pough</span>.
+            <span class="highlight">Ernest Pough</span>
             <br />
-            I'm a full-stack web developer.
+            Software Engineer & Full Stack Developer
           </div>
 
-          <div class="button page-link" dest="about">
-            View my work <i class="mdi mdi-arrow-right"></i>
+          <div class="button page-link" dest="projects">
+            See Projects<i class="mdi mdi-arrow-right"></i>
           </div>
 
           <nav class="flex">
             <div class="link-wrap">
               <div class="active page-link" dest="home">home</div>
-              <div class="page-link" dest="about">about</div>
-              <div class="page-link" dest="portfolio">portfolio</div>
-              <div class="page-link" dest="blog">announcements</div>
+              <div class="page-link" dest="about">skills</div>
+              <div class="page-link" dest="projects">projects</div>
+              <div class="page-link" dest="resume">resume</div>
               <div class="page-link" dest="contact">contact</div>
             </div>
             <i class="mdi mdi-menu"></i>
@@ -85,11 +93,11 @@
         </div>
       </section>
 
-      <!-- ABOUT -->
+      <!-- SKILLS -->
       <section id="about">
         <div class="container flex">
           <div class="header waypoint" data-animation="slide-in-left">
-            ABOUT
+            SKILLS
           </div>
           <div
             class="header-bar waypoint"
@@ -99,7 +107,7 @@
 
           <div class="flex row label-wrap">
             <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
+              <div class="flex bullet-wrap">
                 <div class="hex-wrap waypoint" data-animation="flip-in-x">
                   <div class="hexagon">
                     <i class="mdi mdi-speedometer"></i>
@@ -107,14 +115,11 @@
                 </div>
                 <div class="waypoint" data-animation="fade-in">
                   <div class="label bold">Fast</div>
-                  <div>
-                    Working on projects in a timely manner, my highest
-                    priority.
-                  </div>
+                  <div>Working on projects in a timely manner, my highest priority.</div>
                 </div>
               </div>
 
-              <div class="flex bullet-wrap ">
+              <div class="flex bullet-wrap">
                 <div
                   class="hex-wrap waypoint"
                   data-animation="flip-in-x"
@@ -131,144 +136,93 @@
               </div>
             </div>
             <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
+              <div class="flex bullet-wrap">
                 <div
                   class="hex-wrap waypoint"
                   data-animation="flip-in-x"
                   data-delay=".4s"
                 >
                   <div class="hexagon">
-                    <i class="mdi mdi-lightbulb-outline"></i>
+                    <i class="mdi mdi-lock"></i>
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                  <div class="label bold">Intuitive</div>
-                  <div>Every design custom built to guarantee user satisfaction.</div>
+                  <div class="label bold">Secure</div>
+                  <div>RESTful APIs built for protected user experience.</div>
                 </div>
               </div>
 
-              <div class="flex bullet-wrap ">
+              <div class="flex bullet-wrap">
                 <div
                   class="hex-wrap waypoint"
                   data-animation="flip-in-x"
                   data-delay=".6s"
                 >
                   <div class="hexagon">
-                    <i class="mdi mdi-rocket"></i>
+                    <i class="mdi mdi-check-circle"></i>
                   </div>
                 </div>
                 <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                  <div class="label bold">Dynamic</div>
-                  <div>
-                    Websites don't have to be static, I love making pages come
-                    to life.
-                  </div>
+                  <div class="label bold">Reliable</div>
+                  <div>Experience with Test Driven Development.</div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="skills-wrapper flex row-gt-sm">
+            <!-- Left Side Div -->
             <div
               class="flex flex-50-gt-sm waypoint"
               data-animation="slide-in-left"
             >
               <img src="img/me.png" class="me" />
-              <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-              <div class="label bold">Who Am I?</div>
+              <div class="label bold">About</div>
               <div>
-                I'm a Software Engineer for
-                <a
-                  class="highlight"
-                  href="http://www.resilientcoders.org/"
-                  target="_blank"
+                Software Engineer at
+                <a class="highlight" href="https://www.resilientcoders.org/" target="_blank"
                   >Resilient Coders</a
                 >
                 in Boston, MA.
                 <br />
-                I have a serious passion for front-end and back-end development and
-                like to create dynamic user experiences.
-                <br />
-                <span class="page-link highlight" dest="contact"
-                  >Let's make something special.</span
+                You can find me on
+                <a class="highlight" href="https://www.linkedin.com/in/ernestpough/"
+                  >LinkedIn</a
                 >
+                or
+                <a class="highlight" href="https://github.com/Poughe"
+                  >Github</a
+                >.
+                <br />
+                <!-- <span class="page-link highlight" dest="contact"
+                  >Jump to Contact.</span
+                > -->
               </div>
             </div>
 
+            <!-- Right Side Div -->
             <div
-              class="flex flex-50-gt-sm waypoint bars-wrap"
+              class="flex flex-50-gt-sm waypoint"
               data-animation="slide-in-right"
             >
-              <div class="bar flex">
-                <div class="bar fill" style="width:90%">
-                  <div class="tag bold flex">CSS</div>
-                </div>
-                
+              <div class="flex row-gt-sm" id="skills-section">
+                <img class="skills-pic" src="img/react.png" />
+                <img class="skills-pic" src="img/redux.png" />
+                <img class="skills-pic" src="img/node.png" />
+                <img class="skills-pic" src="img/git.png" />
+                <img class="skills-pic" src="img/postgresql.png" />
+                <img class="skills-pic" src="img/express.png" />
+                <img class="skills-pic" src="img/html.png" />
+                <img class="skills-pic" src="img/css.png" />
+                <img class="skills-pic" src="img/js.png" />
               </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:90%">
-                  <div class="tag bold flex">HTML</div>
-                </div>
-               
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:70%">
-                  <div class="tag bold flex">React</div>
-                </div>
-               
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:90%">
-                  <div class="tag bold flex">JavaScript</div>
-                </div>
-               
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:70%">
-                  <div class="tag bold flex">Angular</div>
-                </div>
-               
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:70%">
-                  <div class="tag bold flex">Node.js</div>
-                </div>
-               
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:70%">
-                  <div class="tag bold flex">Ruby/Rails</div>
-                </div>
-                
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:60%">
-                  <div class="tag bold flex">UI Design</div>
-                </div>
-                
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:80%">
-                  <div class="tag bold flex">Java</div>
-                </div>
-                
-              </div>
-
             </div>
           </div>
         </div>
       </section>
 
-      <!-- PORTFOLIO -->
-      <section class="flex" id="portfolio">
+      <!-- PROJECTS -->
+      <section class="flex" id="projects">
         <div class="header waypoint" data-animation="slide-in-right">
           PROJECTS
         </div>
@@ -281,222 +235,90 @@
         <div class="filter-wrap waypoint" data-animation="fade-in">
           <div class="flex row">
             <div class="filter" data-filter="all">ALL</div>
-            <div class="filter" data-filter=".rails">RESPONSIVE</div>
-            <div class="filter" data-filter=".react">MOCKUP</div>
+            <div class="filter" data-filter=".react">REACT/REDUX</div>
+            <div class="filter" data-filter=".node">NODE/SQL</div>
             <div class="filter" data-filter=".js">JAVASCRIPT</div>
           </div>
           <div class="float-bar">
             <div class="flex row">
               <div class="filter" data-filter="all">ALL</div>
-              <div class="filter" data-filter=".rails">RESPONSIVE</div>
-              <div class="filter" data-filter=".react">MOCKUP</div>
+              <div class="filter" data-filter=".react">REACT/REDUX</div>
+              <div class="filter" data-filter=".node">NODE/SQL</div>
               <div class="filter" data-filter=".js">JAVASCRIPT</div>
             </div>
           </div>
         </div>
 
         <div id="gallery" class="container flex row wrap waypoint">
-          <div class="mix rails" data-my-order="1">
+          <div class="mix react node js" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
-                <div class="bold">NEW YORK TIMES</div>
-                <span class="highlight">HTML / Responsive CSS</span>
+                <div class="bold">Petstagram</div>
+                <span class="highlight"
+                  >HTML | CSS | JAVASCRIPT | NODE | MONGODB</span
+                >
               </div>
-              <div class="button" id="ordering">LEARN MORE</div>
+              <div class="button" id="project1">DETAILS</div>
             </div>
           </div>
 
-          <div class="mix rails" data-my-order="1">
+          <div class="mix react node js" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
-                <div class="bold">BBC NEWS</div>
-                <span class="highlight">HTML / Responsice CSS</span>
+                <div class="bold">Gardner Grounds</div>
+                <span class="highlight">HTML | CSS | JAVASCRIPT | NODE | MONGODB</span>
               </div>
-              <div class="button" id="discover">LEARN MORE</div>
+              <div class="button" id="project2">DETAILS</div>
             </div>
           </div>
 
-          <div class="mix rails" data-my-order="1">
+          <div class="mix react node js" data-my-order="1">
             <div>
               <div class="card"></div>
               <div class="text">
-                <div class="bold">LEVEL GROUND</div>
-                <span class="highlight">HTML / Responsive CSS</span>
+                <div class="bold">Casino Roulette</div>
+                <span class="highlight"
+                  >HTML | CSS | JAVASCRIPT | NODE | MONGODB</span
+                >
               </div>
-              <div class="button" id="newrelic">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix react" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">FACEBOOK HOMEPAGE</div>
-                <span class="highlight">HTML / CSS</span>
-              </div>
-              <div class="button" id="roambi">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">HUFFINGTON POST</div>
-                <span class="highlight">HTML / Responsive CSS</span>
-              </div>
-              <div class="button" id="walker">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">JWLIA</div>
-                <span class="highlight">HTML / Responsive CSS</span>
-              </div>
-              <div class="button" id="mystand">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">TECH CRUNCH</div>
-                <span class="highlight">HTML / Responsive CSS</span>
-              </div>
-              <div class="button" id="never">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">HOROSCOPE</div>
-                <span class="highlight">HTML / CSS / JavaScript</span>
-              </div>
-              <div class="button" id="powur">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">CALCULATOR</div>
-                <span class="highlight">HTML / CSS / JavaScript</span>
-              </div>
-              <div class="button" id="themall">LEARN MORE</div>
+              <div class="button" id="project3">DETAILS</div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- BLOG -->
-      <section id="blog">
+      <!-- RESUME -->
+      <section id="resume">
         <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">ANNOUNCEMENTS</div>
+          <div class="header waypoint" data-animation="slide-in-left">
+            RESUME
+          </div>
           <div
             class="header-bar waypoint"
             data-animation="slide-in-left"
             data-delay=".5s"
           ></div>
 
-          <div class="flex row wrap">
-            <div class="flex row-gt-sm">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <div class="blog-wrap waypoint" data-animation="fade-in">
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-1"></div>
-                    <div class="label bold">Currently Open To Client-Work</div>
-                    <div class="date">In-Person & Remote Services</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                     Proud to announce that I am currently taking on more clients
-                     for their web & mobile needs.
-                    </div>
-                  </div>
-                </div>
-              </a> 
-              
-              <a
-                href="#"
-                target="_blank"
-              >
+          <div class="flex wrap">
+            <div class="flex">
+              <a href="./img/resume.pdf" target="_blank">
                 <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".2s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-2"></div>
-                    <div class="label bold">
-                      JavaScript Projects
-                    </div>
-                    <div class="date">Current Projects</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      Currently working on a project with other software engineers
-                      in creating a functional slot machine.
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="flex row-gt-sm">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
+                  class="resume-wrap waypoint"
                   data-animation="fade-in"
                   data-delay=".4s"
                 >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-3"></div>
-                    <div class="label bold">Copy of Resume</div>
-                    <div class="date">Available Upon Request</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If you would like a copy of my resume it is available upon request. Don't hesitate to reach out. 
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <!--
-              <a
-                href="#"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".6s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-4"></div>
+                  <div id="under-resume" class="fade-wrap">
+                    <img src="img/resume-pic.png" />
                     <div class="label bold">
-                      5 Extensions for Your Chrome Toolbelt
+                      Resume<i class="mdi mdi-open-in-new"></i>
                     </div>
-                    <div class="date">FEBRUARY 23, 2015</div>
                     <div class="bar"></div>
-                    <div class="text">
-                      If you're not using Google Chrome as a front-end web
-                      developer, you're missing out. Not only is Chrome the...
-                    </div>
+                    <div class="date">View or Download</div>
                   </div>
                 </div>
               </a>
-            -->
             </div>
           </div>
         </div>
@@ -504,6 +326,17 @@
 
       <!-- CONTACT -->
       <section id="contact">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="75"
+          width="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="svgcolor-light"
+        >
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
         <div class="container flex">
           <div class="header waypoint" data-animation="slide-in-left">
             CONTACT
@@ -518,7 +351,7 @@
             data-animation="slide-in-right"
             data-delay=".5s"
           >
-            Have a question or want to work together?
+            Feel free to reach out!
           </div>
           <form
             class="waypoint"
@@ -540,7 +373,7 @@
             ></textarea>
             <div id="success">
               <div>
-                Your message was sent successfully. Thanks!<span
+                Your message was received, thank you!<span
                   id="close"
                   class="mdi mdi-close"
                 ></span>
@@ -560,25 +393,15 @@
               <i class="mdi mdi-linkedin"></i>
             </div>
           </a>
-          <!--<a href="https://angel.co/u/ernest-pough">
-            <div class="flex icon" id="icon-3">
-              <i class="mdi mdi-xml"></i>
-            </div>
-          </a> -->
-          <a href="https://twitter.com/PoughErnest">
-            <div class="flex icon" id="icon-4">
-              <i class="mdi mdi-twitter-box"></i>
-            </div>
-          </a>
           <a href="https://github.com/Poughe">
             <div class="flex icon" id="icon-5">
-              <i class="mdi mdi-github-box"></i>
+              <i class="mdi mdi-github"></i>
             </div>
           </a>
         </div>
         <div class="info-box">
           <div class="footnote">
-            <span class="highlight">&copy;Ernest Pough. All Rights Reserved</span>
+            ERNEST POUGH <span class="highlight">&copy;2021</span>
           </div>
         </div>
       </footer>
@@ -587,45 +410,38 @@
     <div id="preload">
       <img src="img/me.png" />
       <img src="img/filler.jpg" />
-      <img src="img/thumb-1.jpg" />
-      <img src="img/thumb-2.jpg" />
-      <img src="img/thumb-3.jpg" />
-      <img src="img/thumb-4.jpg" />
-      <img src="img/thumb-5.jpg" />
-      <img src="img/thumb-6.jpg" />
-      <img src="img/blog-1.jpg" />
-      <img src="img/blog-2.jpg" />
-      <img src="img/blog-3.jpg" />
-      <img src="img/blog-4.jpg" />
-      <img src="img/slides/discover-0.jpg" />
-      <img src="img/slides/discover-1.jpg" />
-      <img src="img/slides/discover-2.jpg" />
-      <img src="img/slides/ordering-0.jpg" />
-      <img src="img/slides/ordering-1.jpg" />
-      <img src="img/slides/ordering-2.jpg" />
-      <img src="img/slides/newrelic-0.jpg" />
-      <img src="img/slides/newrelic-1.jpg" />
-      <img src="img/slides/newrelic-2.jpg" />
-      <img src="img/slides/mystand-0.jpg" />
-      <img src="img/slides/mystand-1.jpg" />
-      <img src="img/slides/mystand-2.jpg" />
-      <img src="img/slides/never-0.jpg" />
-      <img src="img/slides/never-1.jpg" />
-      <img src="img/slides/never-2.jpg" />
-      <img src="img/slides/powur-0.jpg" />
-      <img src="img/slides/powur-1.jpg" />
-      <img src="img/slides/powur-2.jpg" />
-      <img src="img/slides/roambi-0.jpg" />
-      <img src="img/slides/roambi-1.jpg" />
-      <img src="img/slides/roambi-2.jpg" />
-      <img src="img/slides/themall-0.jpg" />
-      <img src="img/slides/themall-1.jpg" />
-      <img src="img/slides/themall-2.jpg" />
-      <img src="img/slides/walker-0.jpg" />
-      <img src="img/slides/walker-1.jpg" />
-      <img src="img/slides/walker-2.jpg" />
+      <img src="img/thumb-1.png" />
+      <img src="img/thumb-2.png" />
+      <img src="img/thumb-3.png" />
+      <img src="img/resume-pic.png" />
+      <img src="img/slides/project1-pic0.png" />
+      <img src="img/slides/project1-pic1.png" />
+      <img src="img/slides/project1-pic2.png" />
+      <img src="img/slides/project2-pic0.png" />
+      <img src="img/slides/project2-pic1.png" />
+      <img src="img/slides/project2-pic2.png" />
+      <img src="img/slides/project3-pic0.png" />
+      <img src="img/slides/project3-pic1.png" />
+      <img src="img/slides/project3-pic2.png" />
     </div>
+    <script>
+      VANTA.BIRDS({
+        el: '#pt',
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        backgroundColor: 0x0,
+        color1: 0x0,
+        color2: 0xfb1f79,
+        speedLimit: 2.0,
+        separation: 50.0,
+        alignment: 50.0,
+        cohesion: 50.0,
+      });
+    </script>
   </body>
 </html>
-
-<script src="scripts/canvas.js"></script>

@@ -1,103 +1,64 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // MODAL
   var modalText = {
-    discover: {
-      title: 'BBC NEWS',
-      tag: 'HTML / Responsive CSS',
-      detail:
-        'Full responsive website which can be viewed seemless on any device big or small.',
-      link: 'https://bbc-website.netlify.app'
+    project1: {
+      title: 'Petstagram',
+      tag: 'Social Media App',
+      detail: `Petstagram is a fullstack social media app with User Login where users can signup or login to their account, post and add to the "feed" of other users posts, and like/comment on other people's posts.`,
+      link: 'https://petstagram-2021.herokuapp.com/',
     },
-    ordering: {
-      title: 'THE NEW YORK TIMES',
-      tag: 'HTML / Responsive CSS',
+    project2: {
+      title: 'Gardner Grounds',
+      tag: 'Point of Sale App',
       detail:
-        'Full responsive website which can be viewed seemless on any device big or small.',
-      link: 'https://nyt-website.netlify.app'
+        'Gardner Grounds is an app that enables the cashier to enter the customer name and order. Then add that order to a queue that the baristas can see and give them the ability to mark an order complete.',
+      link: 'https://barista-app2021.herokuapp.com/',
     },
-    newrelic: {
-      title: 'LEVEL GROUND',
-      tag: 'HTML / Responsive CSS',
+    project3: {
+      title: 'Casino Roulette',
+      tag: 'Casino Game App',
       detail:
-       'Full responsive website which can be viewed seemless on any device big or small.',
-      link: 'https://levelground-website.netlify.app'
+        'Roulette is a full stack app where the public can bet any amount and either win or lose, and the casion owner (or staff) can log in and see the total wins / losses & how much money has been made or lost.',
+      link: 'https://casinoroulette2021.herokuapp.com/',
     },
-    roambi: {
-      title: 'FACEBOOK',
-      tag: 'HTML / CSS',
-      detail:
-       'The task was to make the site as identical as possible',
-      link: 'https://facebook-website.netlify.app'
-    },
-    walker: {
-      title: 'THE HUFFINGTON POST',
-      tag: 'HTML / Responsive CSS',
-      detail:
-      'Full responsive website which can be viewed seemless on any device big or small.',
-    },
-    powur: {
-      title: 'HOROSCOPE',
-      tag: 'HTML / CSS / JavaScript',
-      detail:
-        'Utilized JavaScript that waits for the user to enter their birthday and follows up with a horoscope based on their input',
-      link: 'https://horoscope-website.netlify.app'
-    },
-    mystand: {
-      title: 'JWLIA',
-      tag: 'HTML / Responsive CSS',
-      detail:
-      'Full responsive website which can be viewed seemless on any device big or small.'
-    },
-    never: {
-      title: 'TECH CRUNCH',
-      tag: 'HTML / Responsive CSS',
-      detail:
-      'Full responsive website which can be viewed seemless on any device big or small.'
-    },
-    themall: {
-      title: 'CACULATOR',
-      tag: 'HTML / CSS / JavaScript',
-      detail:
-        'Fully functional calculator that takes in a user\'s input and choice of operation and resulting in an answer.'
-    }
   };
 
-  $('#gallery .button').on('click', function() {
+  $('#gallery .button').on('click', function () {
     fillModal(this.id);
     $('.modal-wrap').addClass('visible');
   });
 
-  $('.close').on('click', function() {
+  $('.close').on('click', function () {
     $('.modal-wrap, #modal .button').removeClass('visible');
   });
 
-  $('.mask').on('click', function() {
+  $('.mask').on('click', function () {
     $('.modal-wrap, #modal .button').removeClass('visible');
   });
 
   var carousel = $('#carousel'),
-    slideWidth = 700,
+    slideWidth = 900,
     threshold = slideWidth / 3,
     dragStart,
     dragEnd;
 
   setDimensions();
 
-  $('#next').click(function() {
+  $('#next').click(function () {
     shiftSlide(-1);
   });
-  $('#prev').click(function() {
+  $('#prev').click(function () {
     shiftSlide(1);
   });
 
-  carousel.on('mousedown', function() {
+  carousel.on('mousedown', function () {
     if (carousel.hasClass('transition')) return;
     dragStart = event.pageX;
-    $(this).on('mousemove', function() {
+    $(this).on('mousemove', function () {
       dragEnd = event.pageX;
       $(this).css('transform', 'translateX(' + dragPos() + 'px)');
     });
-    $(document).on('mouseup', function() {
+    $(document).on('mouseup', function () {
       if (dragPos() > threshold) {
         return shiftSlide(1);
       }
@@ -133,7 +94,7 @@ $(document).ready(function() {
       .off('mousemove')
       .addClass('transition')
       .css('transform', 'translateX(' + direction * slideWidth + 'px)');
-    setTimeout(function() {
+    setTimeout(function () {
       if (direction === 1) {
         $('.slide:first').before($('.slide:last'));
       } else if (direction === -1) {
@@ -154,14 +115,18 @@ $(document).ready(function() {
         .parent()
         .attr('href', modalText[id].link);
 
-    $.each($('#modal li'), function(index, value) {
+    $.each($('#modal li'), function (index, value) {
       $(this).text(modalText[id].bullets[index]);
     });
-    $.each($('#modal .slide'), function(index, value) {
+    $.each($('#modal .slide'), function (index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + '-' + index + ".jpg') center center/cover",
-        backgroundSize: 'cover'
+          "url('img/slides/" +
+          id +
+          '-pic' +
+          index +
+          ".png') center center/cover",
+        backgroundSize: 'cover',
       });
     });
   }
