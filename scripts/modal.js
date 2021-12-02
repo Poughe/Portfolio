@@ -37,7 +37,7 @@ $(document).ready(function () {
   });
 
   var carousel = $('#carousel'),
-    slideWidth = 900,
+    slideWidth = 700,
     threshold = slideWidth / 3,
     dragStart,
     dragEnd;
