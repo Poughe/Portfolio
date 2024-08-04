@@ -13,14 +13,14 @@ export const metadata: Metadata = {
         type: 'website',
         locale: 'en_US',
         url: 'https://ernestpough.dev/',
-        // images: [
-        //     {
-        //         url: '/images/thumbnail.png',
-        //         width: 800,
-        //         height: 600,
-        //         alt: 'Nhan Nguyen',
-        //     },
-        // ],
+        images: [
+            {
+                url: '/images/thumbnail.png',
+                width: 800,
+                height: 600,
+                alt: 'Ernest Pough',
+            },
+        ],
     },
 };
 
