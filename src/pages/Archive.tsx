@@ -31,7 +31,7 @@ const Archive = () => {
             await Promise.all([
                 (async () => {
                     while (page <= 5) {
-                        const response = await fetch(`https://api.github.com/users/nathannewyen/repos?per_page=100&page=${page}`);
+                        const response = await fetch(`https://api.github.com/users/poughe/repos?per_page=100&page=${page}`);
                         const data: Repo[] = await response.json();
 
                         if (data.length === 0) {

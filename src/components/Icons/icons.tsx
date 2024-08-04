@@ -5,9 +5,9 @@ import LinkedInIcon from './linkedin';
 import MailIcon from './mail';
 
 const icons = [
-    { Icon: GithubIcon, url: "https://github.com/nathannewyen" },
-    { Icon: LinkedInIcon, url: "https://www.linkedin.com/in/nhannguyen3112/" },
-    { Icon: MailIcon, url: "mailto:nathan@nathannewyen.com" },
+    { Icon: GithubIcon, url: "https://github.com/poughe" },
+    { Icon: LinkedInIcon, url: "https://www.linkedin.com/in/ernestpough/" },
+    { Icon: MailIcon, url: "mailto:poughe@gmail.com" },
 ];
 
 const Icons = () => (

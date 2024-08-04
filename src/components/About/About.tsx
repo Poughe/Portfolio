@@ -10,7 +10,7 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
             return (
                 <StyledParagraph key={index} $isFirst={isFirst}>
                     {parts[0]}
-                    <StyledContactMe href="mailto:nathan@nathannewyen.com">
+                    <StyledContactMe href="mailto:poughe@gmail.com">
                         contact me
                     </StyledContactMe>
                     {parts[1]}
