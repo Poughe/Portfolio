@@ -2,11 +2,11 @@ import { StyledFooterContainer, StyledFooterContent, StyledLink } from '@styles/
 const Footer = () => {
     const links = [
         { name: 'Figma', url: 'https://www.figma.com/', text: 'Loosely designed in ' },
-        { name: 'IntelliJ', url: 'https://www.jetbrains.com/idea/', text: ' and coded in ' },
+        { name: 'Visual Studio Code', url: 'https://www.jetbrains.com/idea/', text: ' and coded in ' },
         { name: 'Next.js', url: 'https://nextjs.org/', text: ' by yours truly. Built with ' },
         { name: 'Styled-component', url: 'https://styled-components.com/', text: ' and ' },
         { name: 'Vercel', url: 'https://vercel.com/', text: ', deployed with ' },
-        { name: 'Inter', url: 'https://rsms.me/inter/', text: '. All text is set in the ' },
+        { name: 'Brittany Chiang', url: 'https://brittanychiang.com/', text: '. Design credit goes to ' },
     ];
     return (
         <StyledFooterContainer>
