@@ -72,7 +72,7 @@ const Archive = () => {
         <ArchiveStyleContainer>
             <ArchiveStyleBody>
                 <ArchiveStyleNameButton onClick={() => router.push('/')}>
-                    <ArrowLeft />Nhan Nguyen
+                    <ArrowLeft />Ernest Pough
                 </ArchiveStyleNameButton>
                 <ArchiveStyleH1>All Projects</ArchiveStyleH1>
                 {
