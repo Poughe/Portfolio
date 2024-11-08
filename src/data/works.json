@@ -1,14 +1,5 @@
 [
   {
-    "year": "2022 - 2023",
-    "role": "Software Engineer",
-    "company": "Wistia",
-    "location": "Remote",
-    "description": "Led the integration and refinement of React-based admin features like super jump and recent accounts, enhancing user interaction and system efficiency. Spearheaded the migration to React and Cypress.io for better component management and robust end-to-end testing. Implemented GitHub Actions for CI/CD, streamlining pipeline processes and improving deployment practices. Focused on front-end security by resolving critical XSS vulnerabilities and ensuring high code quality through rigorous PR reviews and test-driven development. Co-developed training material for on-call engineering duties using Pager Duty, enhancing operational readiness and responsiveness.",
-    "technologies": ["React", "JavaScript", "TypeScript", "Ruby", "Ruby on Rails"],
-    "link": "https://wistia.com/"
-  },
-  {
     "year": "2023 — Present",
     "role": "Developer Relations (Volunteer) ",
     "company": "Resilient Coders",
@@ -18,11 +9,20 @@
     "link": "https://www.resilientcoders.org/"
   },
   {
+    "year": "2022 - 2023",
+    "role": "Software Engineer",
+    "company": "Wistia",
+    "location": "Remote",
+    "description": "Led the migration of front-end tools to React and Cypress.io, enhancing component management and significantly boosting testing reliability. By implementing and streamlining CI/CD processes using GitHub Actions, I reduced pipeline complexity and accelerated deployment cycles. My work involved addressing critical XSS vulnerabilities and conducting rigorous PR reviews to uphold high standards of code quality and front-end security. I also collaborated with cross-functional teams to optimize the React-based admin dashboard, which improved user interaction, experience, and operational efficiency. Additionally, I co-developed training materials for on-call engineering tasks using Pager Duty, ensuring our team’s readiness and fostering operational excellence.",
+    "technologies": ["React", "JavaScript", "TypeScript", "Ruby", "Ruby on Rails"],
+    "link": "https://wistia.com/"
+  },
+  {
     "year": "2021 — 2022",
     "role": "Software Engineer",
     "company": "Resilient Coders",
     "location": "Remote",
-    "description": "Collaborated with developer teams to design and build responsive full-stack web applications, adhering to best practices. Created semantically structured full-stack applications for mobile and desktop, maintaining detailed Git history using GitHub. Designed logos and multi-page layouts while developing responsive HTML/CSS layouts to improve website usability and accessibility. Gathered and refined project specifications, contributing to a 15% reduction in turnaround time. Maintained comprehensive software documentation to enhance project transparency and collaboration.",
+    "description": "I collaborated with development teams to design responsive full-stack web applications, prioritizing user experience and cross-platform compatibility for desktop, iOS, Android, and tablet devices. By developing semantically structured HTML/CSS layouts and optimizing application performance, I enhanced usability, accessibility, and achieved a substantial decrease in load times. I also partnered with UX/UI designers to create user-centric features, delivering a seamless experience. Additionally, I maintained a detailed Git history on GitHub to support team collaboration and contributed to brand consistency through logo designs and multi-page layouts. Implementing scalable, cutting-edge technologies ensured the longevity and adaptability of each solution.",
     "technologies": ["React", "HTML", "CSS", "JavaScript", "TypeScript", "GraphQL", "Node.js", "Jest", "Cypress", "Python", "CI/CD tools"],
     "link": "https://www.resilientcoders.org/"
   },
@@ -31,7 +31,7 @@
     "role": "Multiple Roles",
     "company": "US Army · Reserves",
     "location": "Multiple",
-    "description": "Supported Covid-19 Pandemic Relief Efforts through deployment in 2020. Led and trained teams of up to 45 soldiers in classroom and practical settings on HUMINT, power generation, and basic soldier functions. Acquired training in conflict resolution and managing large groups of people. Led groups of up to 20 to accomplish missions, including detainee operations and organizing inventory for a battalion-sized element.",
+    "description": "I led technical projects that improved team collaboration and managed timelines, organizing training events that boosted operational readiness by 25%. I also managed $500k worth of sensitive equipment, implementing stringent control measures to ensure zero loss and maximum accountability. By developing a weekly maintenance program, I improved operational readiness by 19% over six months and trained 22 operators on routine upkeep. Additionally, I led and trained teams of up to 45 soldiers in both classroom and practical settings, focusing on power generation and essential soldier functions. My efforts to streamline technical operations across IT, engineering, and intelligence led to significant improvements in efficiency and performance. I also spearheaded critical intelligence projects, providing actionable insights that enhanced mission success rates, while developing and implementing advanced engineering solutions that drove innovation and operational improvements. Coordinating cross-functional teams to achieve strategic objectives, I fostered a collaborative environment that significantly enhanced team productivity.",
     "technologies": ["Electrical Engineering, IT related technologies"],
     "link": "https://www.army.mil/"
   }
